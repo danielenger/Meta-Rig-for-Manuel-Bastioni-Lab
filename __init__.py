@@ -17,7 +17,7 @@
 bl_info = {
     "name": "Rigify Meta-Rig for ManuelBastioniLAB",
     "author": "Daniel Engler",
-    "version": (0, 4),
+    "version": (0, 4, 1),
     "blender": (2, 79, 0),
     "location": "View3D > ManuelBastioniLAB",
     "description": "Adds a new Rigify Meta-Rig for ManuelBastioniLAB Characters",
@@ -104,16 +104,16 @@ mlab_bone_names = { # mlab_bone : DEF-metarig_bone - for rename only
     "lowerarm_L":"DEF-forearm.L",
     "thigh_twist_L":"DEF-thigh.L",
     "thigh_L":"DEF-thigh.L.001",
-    "calf_twist_L":"DEF-shin.L",
-    "calf_L":"DEF-shin.L.001",
+    "calf_twist_L":"DEF-shin.L.001",
+    "calf_L":"DEF-shin.L",
     "upperarm_twist_R":"DEF-upper_arm.R",
     "upperarm_R":"DEF-upper_arm.R.001",
     "lowerarm_twist_R":"DEF-forearm.R.001",
     "lowerarm_R":"DEF-forearm.R",
     "thigh_twist_R":"DEF-thigh.R",
     "thigh_R":"DEF-thigh.R.001",
-    "calf_twist_R":"DEF-shin.R",
-    "calf_R":"DEF-shin.R.001",
+    "calf_twist_R":"DEF-shin.R.001",
+    "calf_R":"DEF-shin.R",
 }
 
 class MetarigForMLAB(bpy.types.Operator):
